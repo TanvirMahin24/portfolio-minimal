@@ -5,6 +5,8 @@ import { RouteWithSubRoutes } from "./routes/RouteWithSubRoutes";
 import routes from "./routes/routes";
 import store from "./Store";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   return (
     <Provider store={store}>

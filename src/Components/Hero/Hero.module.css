@@ -1,0 +1,54 @@
+.hero {
+  color: var(--color_light) !important;
+  min-height: 400px;
+  position: relative;
+  z-index: 2;
+}
+
+.box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 180px;
+  height: 180px;
+  background: var(--color_orange);
+}
+
+.container {
+  padding: 90px 90px;
+  position: relative;
+  z-index: 3;
+  display: flex;
+}
+
+.hero__left {
+  min-height: 600px;
+  width: 300px;
+  border: 3px solid var(--color_light);
+}
+.hero__right {
+  padding-top: 80px;
+}
+
+.name {
+  display: block;
+  font-size: 5.2rem;
+  color: var(--color_orange);
+  background: var(--color_dark);
+  transform: translateX(-175px) !important;
+  letter-spacing: 5px;
+  line-height: 4.9rem;
+  padding-bottom: 15px;
+  padding-top: 25px;
+}
+
+.title {
+  display: block;
+  font-size: 1.6rem;
+  color: var(--color_light);
+  background: var(--color_dark);
+  transform: translateX(-175px) !important;
+  letter-spacing: 13px;
+  padding-bottom: 50px;
+}
