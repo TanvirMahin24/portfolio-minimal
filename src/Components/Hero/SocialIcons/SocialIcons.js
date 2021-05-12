@@ -1,26 +1,26 @@
 import React from "react";
-import { FiFacebook, FiGithub, FiLinkedin } from "react-icons/fi";
-import { AiOutlineTwitter } from "react-icons/ai";
-import { HiOutlineMail } from "react-icons/hi";
+import { VscGithubAlt, VscMail, VscTwitter } from "react-icons/vsc";
+import { RiFacebookLine, RiLinkedinLine } from "react-icons/ri";
+import data from "../../../stub/SocialLinks/data";
 import styles from "./SocialIcons.module.css";
 
 const SocialIcons = () => {
   return (
     <div className={styles.socialIcons}>
-      <a href="#!">
-        <FiFacebook />
+      <a href={data.facebook}>
+        <RiFacebookLine />
       </a>
-      <a href="#!">
-        <AiOutlineTwitter />
+      <a href={data.twitter}>
+        <VscTwitter />
       </a>
-      <a href="#!">
-        <FiLinkedin />
+      <a href={data.linkedin}>
+        <RiLinkedinLine />
       </a>
-      <a href="#!">
-        <FiGithub />
+      <a href={data.github}>
+        <VscGithubAlt />
       </a>
-      <a href="#!">
-        <HiOutlineMail />
+      <a href={data.email}>
+        <VscMail />
       </a>
     </div>
   );
