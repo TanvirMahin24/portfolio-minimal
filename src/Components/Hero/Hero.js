@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
+import { SocialIcons } from "./SocialIcons";
 
 const Hero = () => {
   return (
@@ -15,6 +16,7 @@ const Hero = () => {
             Tanvir
           </span>
           <span className={styles.title}>WEB DEVELOPER</span>
+          <SocialIcons />
         </div>
       </div>
       Hero

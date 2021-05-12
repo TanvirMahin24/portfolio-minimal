@@ -23,12 +23,12 @@
 }
 
 .hero__left {
-  min-height: 600px;
+  min-height: 520px;
   width: 300px;
   border: 3px solid var(--color_light);
 }
 .hero__right {
-  padding-top: 80px;
+  padding-top: 53px;
 }
 
 .name {
@@ -36,7 +36,7 @@
   font-size: 5.2rem;
   color: var(--color_orange);
   background: var(--color_dark);
-  transform: translateX(-175px) !important;
+  transform: translateX(-200px) !important;
   letter-spacing: 5px;
   line-height: 4.9rem;
   padding-bottom: 15px;
@@ -48,7 +48,7 @@
   font-size: 1.6rem;
   color: var(--color_light);
   background: var(--color_dark);
-  transform: translateX(-175px) !important;
+  transform: translateX(-195px) !important;
   letter-spacing: 13px;
   padding-bottom: 50px;
 }
