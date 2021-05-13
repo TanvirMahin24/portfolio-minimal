@@ -15,12 +15,9 @@ export const getContributions = () => async (dispatch) => {
     const res = await axios.post(
       data.base,
       {
-        query: getContributionQuery,
+        query: getContributionQuery(),
       },
       config
-    );
-    console.log(
-      res.data.data.user.contributionsCollection.contributionCalendar
     );
 
     dispatch({

@@ -3,15 +3,15 @@ import styles from "./ContributionItem.module.css";
 
 const ContributionItem = ({ count }) => {
   let lvl = 0;
-  if (count > 0 && count < 2) {
+  if (count === 1) {
     lvl = 1;
-  } else if (count >= 2 && count < 3) {
+  } else if (count === 2) {
     lvl = 2;
-  } else if (count >= 3 && count < 4) {
+  } else if (count === 3) {
     lvl = 3;
-  } else if (count >= 4 && count < 5) {
+  } else if (count === 4) {
     lvl = 4;
-  } else if (count > 5) {
+  } else if (count >= 5) {
     lvl = 5;
   }
   return (

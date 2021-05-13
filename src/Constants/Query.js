@@ -1,7 +1,11 @@
-export const getContributionQuery = `
+export const getContributionQuery = () => {
+  let date = new Date();
+  let startDate = new Date(new Date().setDate(new Date().getDate() - 90));
+  //console.log(startDate);
+  return `
 query {
     user(login: "TanvirMahin24") {
-      contributionsCollection(from: "2021-02-13T00:00:00.000+00:00", to: "2021-05-13T00:00:00.000+00:00") {
+      contributionsCollection(from: "${startDate.toISOString()}", to: "${date.toISOString()}") {
         contributionCalendar {
           weeks {
             contributionDays {
@@ -15,3 +19,4 @@ query {
 }
   
 `;
+};
