@@ -6,7 +6,9 @@
 
 .institution {
   color: var(--color_orange);
+  cursor: pointer;
 }
+
 .time {
   font-size: 1rem;
   padding-left: 15px;

@@ -6,6 +6,7 @@ import routes from "./routes/routes";
 import store from "./Store";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import "winbox/dist/css/winbox.min.css";
 
 function App() {
   return (

@@ -30,7 +30,7 @@
   width: 15px;
   border-radius: 50%;
   background: var(--color_orange);
-  transform: translateX(-50%);
+  transform: translateX(-6px);
 }
 .end {
   display: block;
