@@ -4,6 +4,7 @@
 
 .stats {
   display: block;
+  transform: translateY(-80px);
 }
 
 .loading {
