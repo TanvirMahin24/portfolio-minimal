@@ -1,4 +1,5 @@
 import React from "react";
+import GithubContribution from "../GithubContribution/GithubContribution";
 import styles from "./Hero.module.css";
 import { SocialIcons } from "./SocialIcons";
 
@@ -19,7 +20,7 @@ const Hero = () => {
           <SocialIcons />
         </div>
       </div>
-      Hero
+      <GithubContribution />
     </div>
   );
 };
