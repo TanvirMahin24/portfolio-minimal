@@ -36,12 +36,13 @@
   display: block;
   margin-top: 20px;
   margin-bottom: 20px;
-  height: 150px;
+  height: 100%;
   width: 3px;
   background: var(--color_orange);
 }
 
 .content {
+  display: block;
   padding: 20px 60px;
   padding-right: 50px;
   text-align: justify;

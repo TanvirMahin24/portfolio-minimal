@@ -6,6 +6,8 @@ import loadingGif from "../../Assets/Loading/beanLoading.gif";
 import ContributionItem from "./ContributionItem/ContributionItem";
 
 const GithubContribution = ({ getContributions, loading, contributions }) => {
+  let i = 0,
+    j = 0;
   useEffect(() => {
     getContributions();
   }, [getContributions]);
@@ -15,9 +17,9 @@ const GithubContribution = ({ getContributions, loading, contributions }) => {
       {!loading && (
         <div className={styles.stats}>
           {contributions.map((cont) => (
-            <div className={styles.row}>
+            <div key={i++} className={styles.row}>
               {cont.contributionDays.map((day) => (
-                <ContributionItem count={day.contributionCount} />
+                <ContributionItem key={j++} count={day.contributionCount} />
               ))}
               <br />
             </div>

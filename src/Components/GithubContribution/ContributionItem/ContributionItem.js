@@ -17,15 +17,15 @@ const ContributionItem = ({ count }) => {
   return (
     <div
       className={`${styles.item} ${
-        lvl == 0
+        lvl === 0
           ? styles.lv0
-          : lvl == 1
+          : lvl === 1
           ? styles.lv1
-          : lvl == 2
+          : lvl === 2
           ? styles.lv2
-          : lvl == 3
+          : lvl === 3
           ? styles.lv3
-          : lvl == 4
+          : lvl === 4
           ? styles.lv4
           : styles.lv5
       }`}

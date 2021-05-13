@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styles from "./BorderedSection.module.css";
 
 const BorderedSection = ({ title, children }) => {
+  const [height, setHeight] = useState(0);
+  const elContent = useRef(null);
+  useEffect(() => {
+    const heightHandeler = () => {
+      setHeight(elContent.current.getBoundingClientRect().height - 170);
+    };
+    heightHandeler();
+  }, []);
+
   return (
     <div className="p-4">
       <span className={styles.title}>{title}</span>
@@ -9,9 +18,11 @@ const BorderedSection = ({ title, children }) => {
         <div className={styles.border_section}>
           <div className={styles.top}></div>
           <div className={styles.mid}></div>
-          <div className={styles.end}></div>
+          <div style={{ height: height }} className={styles.end}></div>
         </div>
-        <div className={styles.content}>{children}</div>
+        <div ref={elContent} className={styles.content}>
+          {children}
+        </div>
       </div>
     </div>
   );
