@@ -1,0 +1,17 @@
+.item {
+  display: block;
+  color: var(--color_light);
+  padding-bottom: 10px;
+}
+
+.institution {
+  color: var(--color_orange);
+}
+.time {
+  font-size: 1rem;
+  padding-left: 15px;
+}
+
+.degree {
+  font-size: 1.2rem;
+}
