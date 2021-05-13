@@ -19,8 +19,8 @@ const Hero = () => {
           <span className={styles.title}>WEB DEVELOPER</span>
           <SocialIcons />
         </div>
+        <GithubContribution />
       </div>
-      <GithubContribution />
     </div>
   );
 };

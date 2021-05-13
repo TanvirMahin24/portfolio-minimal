@@ -1,6 +1,6 @@
 const data = {
   github_username: "TanvirMahin24",
-  tkn: "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",
+  tkn: "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",
   base: "https://api.github.com/graphql",
 };
 

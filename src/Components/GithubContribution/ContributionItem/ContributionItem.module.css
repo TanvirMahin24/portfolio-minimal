@@ -1,0 +1,34 @@
+.item {
+  display: block;
+  height: 40px;
+  width: 40px;
+  margin: 2px;
+}
+
+.lv0 {
+  background: var(--color_dark);
+}
+.lv1 {
+  background: var(--color_orange);
+  opacity: 0.2;
+}
+
+.lv2 {
+  background: var(--color_orange);
+  opacity: 0.4;
+}
+
+.lv3 {
+  background: var(--color_orange);
+  opacity: 0.6;
+}
+
+.lv4 {
+  background: var(--color_orange);
+  opacity: 0.8;
+}
+
+.lv5 {
+  background: var(--color_orange);
+  opacity: 1;
+}

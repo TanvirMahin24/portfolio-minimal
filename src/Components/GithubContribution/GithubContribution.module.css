@@ -1,0 +1,11 @@
+.row {
+  display: flex;
+}
+
+.stats {
+  display: block;
+}
+
+.loading {
+  margin: auto auto;
+}
