@@ -1,17 +1,18 @@
-import React from "react";
-import WinBox from "winbox/src/js/winbox";
+import React, { useEffect, useState } from "react";
+import WinboxReact from "winbox-react";
 import styles from "./EducationItem.module.css";
 
 const EducationItem = ({ institution, time, degree }) => {
+  const [show, setShow] = useState(false);
   const clickHandeler = () => {
-    const modal = new WinBox();
-    modal.setBackground("var(--color_orange)");
-    modal.setTitle(`${institution}`);
+    setShow(!show);
   };
+
   return (
     <div className={styles.item}>
+      {show && <WinboxReact onClose={clickHandeler} />}
       <div>
-        <span onClick={clickHandeler} className={styles.institution}>
+        <span onClick={() => clickHandeler()} className={styles.institution}>
           {institution}
         </span>
         <span className={styles.time}>{time}</span>
