@@ -1,6 +1,7 @@
-import { GET_CONTRIBUTIONS } from "../Constants/Types";
+import { GET_CONTRIBUTIONS, CONTRIBUTION_ERROR } from "../Constants/Types";
 import axios from "axios";
 import data from "../Constants/Data";
+import contribDefaultData from "../Constants/DefaultContribution";
 import { getContributionQuery } from "../Constants/Query";
 
 //GET Contributions
@@ -26,10 +27,10 @@ export const getContributions = () => async (dispatch) => {
         res.data.data.user.contributionsCollection.contributionCalendar.weeks,
     });
   } catch (err) {
-    //   dispatch({
-    //     type: POST_ERROR,
-    //     payload: { msg: err.response.statusText, status: err.response.status },
-    //   });
+    dispatch({
+      type: CONTRIBUTION_ERROR,
+      payload: contribDefaultData,
+    });
     console.log(err);
   }
 };

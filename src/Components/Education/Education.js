@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { BorderedSection } from "../Shared/BorderedSection";
 import data from "../../stub/Education/data";
 import EducationItem from "./EducationItem/EducationItem";

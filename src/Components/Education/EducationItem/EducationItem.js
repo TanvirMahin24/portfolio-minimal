@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import WinboxReact from "winbox-react";
 import styles from "./EducationItem.module.css";
 
