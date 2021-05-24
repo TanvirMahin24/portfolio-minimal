@@ -12,7 +12,7 @@ const GithubContribution = ({ getContributions, loading, contributions }) => {
     getContributions();
   }, [getContributions]);
   return (
-    <div>
+    <div className={styles.wrapper}>
       {loading && <img src={loadingGif} alt="" className={styles.loading} />}
       {!loading && (
         <div className={styles.stats}>

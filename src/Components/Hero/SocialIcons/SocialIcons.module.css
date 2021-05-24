@@ -18,3 +18,21 @@
   color: var(--color_light);
   transition: 0.3s all ease;
 }
+@media screen and (max-width: 740px) {
+  .socialIcons {
+    flex-direction: row;
+    padding-top: 50%;
+  }
+}
+@media screen and (max-width: 707px) {
+  .socialIcons {
+    flex-direction: row;
+    padding-top: 30%;
+  }
+}
+@media screen and (max-width: 580px) {
+  .socialIcons {
+    flex-direction: row;
+    padding-top: 50%;
+  }
+}

@@ -10,3 +10,18 @@
 .loading {
   margin: auto auto;
 }
+
+@media screen and (max-width: 1080px) {
+  .wrapper {
+    position: absolute;
+    z-index: 5;
+    right: 5%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .wrapper {
+    position: absolute;
+    z-index: 5;
+    right: 0;
+  }
+}

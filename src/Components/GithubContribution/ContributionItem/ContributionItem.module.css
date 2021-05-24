@@ -32,3 +32,8 @@
   background: var(--color_orange);
   opacity: 1;
 }
+@media screen and (max-width: 500px) {
+  .lv0 {
+    opacity: 0.5;
+  }
+}
