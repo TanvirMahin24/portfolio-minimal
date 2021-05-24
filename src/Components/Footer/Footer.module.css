@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color_light);
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.text {
+  color: var(--color_light);
+  font-weight: lighter;
+  font-size: 20px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  padding-left: 5px;
+  color: var(--color_orange);
+  text-decoration: none;
+  transition: 0.4s all ease-in-out;
+}
+
+.name:hover,
+.name:active {
+  color: var(--color_light);
+  text-decoration: none;
+  transition: 0.4s all ease-in-out;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: var(--color_orange);
+}

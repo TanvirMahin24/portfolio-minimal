@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { AboutMe } from "../../Components/AboutMe";
 import Education from "../../Components/Education/Education";
+import { Footer } from "../../Components/Footer";
 import { Hero } from "../../Components/Hero";
 
 const LandingPage = () => {
@@ -18,6 +19,7 @@ const LandingPage = () => {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </>
   );
 };
