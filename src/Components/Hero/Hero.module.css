@@ -128,3 +128,12 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .name {
+    font-size: 2.5rem;
+  }
+  .title {
+    font-size: 1.4rem;
+  }
+}

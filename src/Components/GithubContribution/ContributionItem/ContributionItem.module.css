@@ -13,9 +13,14 @@
 
 .title {
   background: var(--color_dark) !important;
-  color: var(--color_orange) !important;
-  font-size: 18px;
+  color: var(--color_light) !important;
+  font-weight: 500;
+  font-size: 16px;
   border-bottom: none;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 .github {
@@ -23,7 +28,7 @@
 }
 
 .date {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .text {

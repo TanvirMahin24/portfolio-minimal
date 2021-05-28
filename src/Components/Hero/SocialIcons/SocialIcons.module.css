@@ -36,3 +36,12 @@
     padding-top: 50%;
   }
 }
+@media screen and (max-width: 350px) {
+  .socialIcons {
+    flex-direction: row;
+    padding-top: 80%;
+  }
+  .socialIcons a {
+    padding-right: 10px;
+  }
+}

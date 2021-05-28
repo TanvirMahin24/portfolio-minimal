@@ -31,7 +31,8 @@ const ContributionItem = ({ count, date }) => {
               </div>
               <div className="px-3">
                 <span className={`${styles.title} d-block`}>
-                  <strong>{count}</strong> Github Contribution
+                  <span className={styles.bold}>{count}</span> Github
+                  Contribution
                 </span>
                 <div className={styles.date}>
                   <div className="d-flex align-items-center justify-content-start">

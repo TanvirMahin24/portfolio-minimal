@@ -34,3 +34,13 @@
   height: 100px;
   background: var(--color_orange);
 }
+
+@media screen and (max-width: 767px) {
+  .box {
+    width: 60px;
+    height: 60px;
+  }
+  .text {
+    height: auto;
+  }
+}
