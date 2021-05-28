@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { AboutMe } from "../../Components/AboutMe";
+import { ColorPicker } from "../../Components/ColorPicker";
 import Education from "../../Components/Education/Education";
 import { Experience } from "../../Components/Experience";
 import { Footer } from "../../Components/Footer";
@@ -9,6 +10,7 @@ import { Hero } from "../../Components/Hero";
 const LandingPage = () => {
   return (
     <>
+      <ColorPicker />
       <Hero />
       <Container>
         <Row>

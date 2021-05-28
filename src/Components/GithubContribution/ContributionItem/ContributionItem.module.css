@@ -8,12 +8,12 @@
 .tooltip {
   background: var(--color_dark) !important;
   color: var(--color_orange) !important;
-  border: 1px solid var(--color_light);
+  border: 1px solid var(--color_light) !important;
 }
 
 .title {
   background: var(--color_dark) !important;
-  color: var(--color_orange);
+  color: var(--color_orange) !important;
   font-size: 18px;
   border-bottom: none;
 }
