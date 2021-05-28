@@ -19,7 +19,11 @@ const GithubContribution = ({ getContributions, loading, contributions }) => {
           {contributions.map((cont) => (
             <div key={i++} className={styles.row}>
               {cont.contributionDays.map((day) => (
-                <ContributionItem key={j++} count={day.contributionCount} />
+                <ContributionItem
+                  key={j++}
+                  date={day.date}
+                  count={day.contributionCount}
+                />
               ))}
               <br />
             </div>
