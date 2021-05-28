@@ -1,4 +1,4 @@
-import { SET_PRIMARY_COLOR } from "../Constants/Types";
+import { SET_PRIMARY_COLOR, TOOGLE_MOOD } from "../Constants/Types";
 
 export const setPrimaryColor = (color) => (dispatch) => {
   dispatch({
@@ -9,7 +9,6 @@ export const setPrimaryColor = (color) => (dispatch) => {
 
 export const setToogleMood = () => (dispatch) => {
   dispatch({
-    type: SET_PRIMARY_COLOR,
-    payload: color.hex,
+    type: TOOGLE_MOOD,
   });
 };

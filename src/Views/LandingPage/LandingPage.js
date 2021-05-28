@@ -15,6 +15,9 @@ const LandingPage = ({ primary, dark, light }) => {
         "--color_orange": primary,
         "--color_dark": dark,
         "--color_light": light,
+        background: dark,
+        width: "100%",
+        height: "100%",
       }}
     >
       <ColorPicker />

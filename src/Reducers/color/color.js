@@ -1,4 +1,4 @@
-import { SET_PRIMARY_COLOR } from "../../Constants/Types";
+import { SET_PRIMARY_COLOR, TOOGLE_MOOD } from "../../Constants/Types";
 
 const initialState = {
   primary: "#ef5124",
@@ -11,6 +11,10 @@ const color = (state = initialState, action) => {
   switch (type) {
     case SET_PRIMARY_COLOR:
       return { ...state, primary: payload };
+
+    case TOOGLE_MOOD:
+      return { ...state, light: state.dark, dark: state.light };
+
     default:
       return state;
   }
