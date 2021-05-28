@@ -6,3 +6,10 @@ export const setPrimaryColor = (color) => (dispatch) => {
     payload: color.hex,
   });
 };
+
+export const setToogleMood = () => (dispatch) => {
+  dispatch({
+    type: SET_PRIMARY_COLOR,
+    payload: color.hex,
+  });
+};
