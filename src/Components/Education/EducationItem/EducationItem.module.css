@@ -7,6 +7,13 @@
 .institution {
   color: var(--color_orange);
   cursor: pointer;
+  transition: 1s all ease-in-out;
+}
+
+.institution:hover {
+  color: var(--color_light);
+  text-decoration: none !important;
+  transition: 1s all ease-in-out;
 }
 
 .time {

@@ -1,10 +1,10 @@
 const data = [
   {
     id: 1,
-    company: "Qbittech",
+    company: "Qubitech",
     time: "2021 - Present",
     description:
-      "Qbit Tech is a RUET based softwere company that provides web development, app development and game development services.",
+      "Qubitech Solutions is an IT solutions venture helping the new age entrepreneurs, startups and business with branding, designing and developing complete products. I am learning a lot from Qubitech.",
     link: "/",
   },
   {
@@ -28,7 +28,7 @@ const data = [
     company: "RCF devTeam",
     time: "2019 - Present",
     description:
-      "RCF (RUET Career Forum) devTeam is a web development team that was selected based on a web development competition in RUET. I achieved first place and got the chance to work as devTeam Core member. We developed the official website of RUET Career Forum being in this team. The site is live at: https://ruetcareerforum.org",
+      "RCF (RUET Career Forum) devTeam is a web development team that was selected based on a web development competition in RUET. I achieved first place and got the chance to work as devTeam Core member. We developed the official website of RUET Career Forum. The site is live at: https://ruetcareerforum.org",
     link: "https://ruetcareerforum.org",
   },
   {
