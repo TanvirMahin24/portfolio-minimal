@@ -3,12 +3,13 @@ import { SliderPicker } from "react-color";
 import { AiOutlineBgColors } from "react-icons/ai";
 import { RiSunLine } from "react-icons/ri";
 import { VscClose } from "react-icons/vsc";
+import { GrUndo } from "react-icons/gr";
 import { BsMoon } from "react-icons/bs";
 import { connect } from "react-redux";
 import { setPrimaryColor, setToogleMood } from "../../Actions/ColorActions";
 import styles from "./ColorPicker.module.css";
 
-const ColorPicker = ({ setPrimaryColor, primary, setToogleMood }) => {
+const ColorPicker = ({ setPrimaryColor, primary, dark, setToogleMood }) => {
   const [show, setShow] = useState(false);
   const [night, setNight] = useState(true);
 
@@ -16,6 +17,20 @@ const ColorPicker = ({ setPrimaryColor, primary, setToogleMood }) => {
     setNight(!night);
     setToogleMood();
   };
+
+  const defaultHandeler = () => {
+    if (dark !== "#28292d") {
+      setToogleMood();
+    }
+    if (primary !== "#ef5124") {
+      setPrimaryColor({ hex: "#ef5124" });
+    }
+  };
+
+  let check = false;
+  if (primary !== "#ef5124" || dark !== "#28292d") {
+    check = true;
+  }
 
   return (
     <>
@@ -33,9 +48,10 @@ const ColorPicker = ({ setPrimaryColor, primary, setToogleMood }) => {
         )}
         {show && (
           <>
-            <span className={`${styles.close} d-block text-right`}>
+            <div className={`${styles.close} d-flex justify-content-between`}>
               <VscClose onClick={() => setShow(false)} />
-            </span>
+              {check && <GrUndo onClick={() => defaultHandeler()} />}
+            </div>
             <span className={`${styles.title} d-block lead text-center pt-2`}>
               Pick a color
             </span>
@@ -53,6 +69,7 @@ const ColorPicker = ({ setPrimaryColor, primary, setToogleMood }) => {
 
 const mapStateToProps = (state) => ({
   primary: state.color.primary,
+  dark: state.color.dark,
 });
 
 export default connect(mapStateToProps, { setPrimaryColor, setToogleMood })(

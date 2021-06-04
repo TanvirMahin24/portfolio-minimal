@@ -8,19 +8,19 @@ const SocialIcons = () => {
   return (
     <div className={styles.socialIcons}>
       <a href={data.facebook}>
-        <RiFacebookLine />
+        <RiFacebookLine alt="facebook" />
       </a>
       <a href={data.twitter}>
-        <VscTwitter />
+        <VscTwitter alt="twitter" />
       </a>
       <a href={data.linkedin}>
-        <RiLinkedinLine />
+        <RiLinkedinLine alt="linkedin" />
       </a>
       <a href={data.github}>
-        <VscGithubAlt />
+        <VscGithubAlt alt="github" />
       </a>
       <a href={data.email}>
-        <VscMail />
+        <VscMail alt="email" />
       </a>
     </div>
   );

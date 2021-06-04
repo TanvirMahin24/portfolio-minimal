@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { connect } from "react-redux";
+import { setToogleMood, setPrimaryColor } from "../../Actions/ColorActions";
 import { AboutMe } from "../../Components/AboutMe";
 import { ColorPicker } from "../../Components/ColorPicker";
 import Education from "../../Components/Education/Education";
@@ -8,7 +9,24 @@ import { Experience } from "../../Components/Experience";
 import { Footer } from "../../Components/Footer";
 import { Hero } from "../../Components/Hero";
 
-const LandingPage = ({ primary, dark, light }) => {
+const LandingPage = ({
+  primary,
+  dark,
+  light,
+  setToogleMood,
+  setPrimaryColor,
+}) => {
+  useEffect(() => {
+    let flag = localStorage.getItem("light_mood");
+    let colorFlag = localStorage.getItem("custom_color");
+    if (flag === "true") {
+      setToogleMood();
+    }
+    if (colorFlag) {
+      setPrimaryColor({ hex: colorFlag });
+    }
+    console.log(colorFlag);
+  }, [setToogleMood, setPrimaryColor]);
   return (
     <div
       style={{
@@ -43,4 +61,6 @@ const mapStateToProps = (state) => ({
   light: state.color.light,
 });
 
-export default connect(mapStateToProps, null)(LandingPage);
+export default connect(mapStateToProps, { setToogleMood, setPrimaryColor })(
+  LandingPage
+);
