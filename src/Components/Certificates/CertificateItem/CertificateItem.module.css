@@ -1,0 +1,28 @@
+.item {
+  display: block;
+  color: var(--color_light);
+  padding-bottom: 10px;
+}
+
+.provider {
+  color: var(--color_orange);
+  cursor: pointer;
+  text-decoration: none !important;
+  transition: 1s all ease-in-out;
+}
+
+.provider:hover,
+.provider:active {
+  color: var(--color_light);
+  text-decoration: none !important;
+  transition: 1s all ease-in-out;
+}
+
+.time {
+  font-size: 1rem;
+  padding-left: 15px;
+}
+
+.title {
+  font-size: 1.1rem;
+}
