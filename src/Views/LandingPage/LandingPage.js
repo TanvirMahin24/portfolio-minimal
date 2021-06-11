@@ -8,6 +8,7 @@ import Education from "../../Components/Education/Education";
 import { Experience } from "../../Components/Experience";
 import { Footer } from "../../Components/Footer";
 import { Hero } from "../../Components/Hero";
+import { Certificates } from "../../Components/Certificates";
 
 const LandingPage = ({
   primary,
@@ -44,6 +45,7 @@ const LandingPage = ({
         <Row>
           <Col md={6}>
             <AboutMe />
+            <Certificates />
           </Col>
           <Col md={6}>
             <Education />
