@@ -27,6 +27,14 @@ const data = [
     title: "The PHP Workshop",
     link: "https://drive.google.com/file/d/1wc1lqyVFO7qQT829n3N9Nl9pnGxNSvXK/view?usp=sharing",
   },
+  {
+    id: 5,
+    provider: "Hult Prize ",
+    date: "06-11-2020",
+    title:
+      "This Certificate Recognizes the Participation as an organizing committee member at ",
+    link: "https://drive.google.com/file/d/13PyF5brp-qK3yDSebqaSiPoK-l3CHV6J/view?usp=sharing",
+  },
 ];
 
 export default data;

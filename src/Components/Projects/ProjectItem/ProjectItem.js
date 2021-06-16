@@ -1,22 +1,30 @@
 import React from "react";
+import { AiOutlineYoutube } from "react-icons/ai";
 import styles from "./ProjectItem.module.css";
 import { Col } from "react-bootstrap";
 
-const ProjectItem = ({ image, title, id, link }) => {
+const ProjectItem = ({ image, title, description, tags, id, link }) => {
   return (
-    <Col md={3} sm={6} xs={12} className="p-2">
-      <div className={styles.project_card}>
-        <div className={styles.box}>
-          <h1 className={styles.number}>{id}</h1>
-        </div>
-        <div className={styles.inner_box}></div>
-        <img src={image} alt="" class="pr-2" />
-        <span class="d-block lead pt-4 pl-3">{title} </span>
-        <div class={`text-right ${styles.project_links}`}>
-          <a href={link}>
-            <i class="fas fa-globe"></i>
-          </a>
-          {/* <a href="#"><i class="fab fa-youtube"></i></a>  */}
+    <Col md={12} sm={12} xs={12} className="p-2">
+      <div className={styles.project__card}>
+        <div className={styles.crd}>
+          <span class={`d-block lead ${styles.title}`}>{title} </span>
+          <div className={styles.tag__section}>
+            {tags.map((tag) => (
+              <div key={tag.id} className={styles.tag}>
+                {tag.text}
+              </div>
+            ))}
+          </div>
+          <span class={`d-block ${styles.desc}`}>{description} </span>
+          <div class={`text-right ${styles.project_links}`}>
+            <a href={link}>
+              <i class="fas fa-globe"></i>
+            </a>
+            <a href="#" className="text-light">
+              <AiOutlineYoutube />
+            </a>
+          </div>
         </div>
       </div>
     </Col>

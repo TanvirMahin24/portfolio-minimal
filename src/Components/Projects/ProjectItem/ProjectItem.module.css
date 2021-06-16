@@ -1,70 +1,48 @@
-.project_card {
-  position: relative;
-  height: 100%;
-  z-index: 5;
-  padding: 5px;
-  transition: 0.3s all ease-in-out;
+.project__card {
+  width: 100%;
+  border-bottom: 1px dashed var(--color_orange);
+}
+
+.img {
+  width: 50px !important;
+  height: auto !important;
+}
+
+.crd {
+  width: 100%;
+  padding: 5px 0;
   color: var(--color_light);
-  border: 2px solid var(--color_orange);
+  background: var(--color_dark);
 }
-.project_card .display-3 {
-  position: relative;
-  z-index: 6;
+
+.title {
+  color: var(--color_orange);
+  font-weight: 300 !important;
+  padding-bottom: 3px;
 }
-.project_card img {
-  width: 80px;
-  float: right;
-  transform: translate(0, -20px);
+
+.desc {
+  color: var(--color_light);
+  font-size: 16px;
 }
-.number {
-  font-size: 3.5rem;
-  line-height: 1.2rem;
-  font-weight: 300;
-}
-.box {
-  position: relative;
-  z-index: 2;
+
+.tag__section {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70px;
-  height: 70px;
-  background: var(--color_orange);
-  /* transform: translate(0, -50px); */
-}
-.project_card:hover {
-  background: var(--color_orange);
-  transition: 0.3 all ease-in-out;
-}
-.inner_box {
-  position: absolute;
-  z-index: 1;
-  width: 70px;
-  height: 70px;
-  border: 1px solid var(--color_orange-50);
-  /* background: var(--color_orange-50); */
-  transform: translate(10px, -60px);
-}
-.project_links {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding-right: 10px;
   padding-bottom: 5px;
 }
-.project_links a {
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* border: 1px solid var(--color_orange); */
-  color: var(--white);
-  font-size: 16px;
+
+.tag {
+  margin-right: 3px;
+  background: var(--color_orange);
+  font-size: 14px;
+  color: var(--color_dark);
+  font-weight: normal;
+  padding: 2px 8px;
   transition: 0.3s all ease-in-out;
 }
-.project_links a:hover {
-  text-decoration: none;
-  color: var(--primary);
+
+.tag:hover {
+  background: var(--color_light);
+  color: var(--color_dark);
   transition: 0.3s all ease-in-out;
 }

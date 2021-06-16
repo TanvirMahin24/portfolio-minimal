@@ -3,7 +3,7 @@ import { SET_PRIMARY_COLOR, TOOGLE_MOOD } from "../../Constants/Types";
 const initialState = {
   primary: "#ef5124",
   dark: "#28292d",
-  light: "#d3d3d3",
+  light: "#ebe9e9",
   toggle: false,
 };
 
