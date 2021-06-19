@@ -101,7 +101,7 @@ const data = [
         text: "MySQL",
       },
       {
-        id: 2,
+        id: 3,
         text: "HTML/CSS",
       },
     ],
@@ -111,19 +111,20 @@ const data = [
   {
     id: 7,
     title: "Blogging Platform Website",
-    description: "Description",
+    description:
+      "A PHP MySQL project as a task for the RUET Career Forum devTeam compition. Learned a lot about PHP while making this project.",
     tags: [
       {
         id: 1,
-        text: "NPM",
+        text: "PHP",
       },
       {
         id: 2,
-        text: "React",
+        text: "MySQL",
       },
       {
-        id: 2,
-        text: "Object Oriented Programming",
+        id: 3,
+        text: "HTML/CSS",
       },
     ],
     link: "/",
@@ -132,61 +133,42 @@ const data = [
   {
     id: 8,
     title: "DevAddaGhor Forum Website",
-    description: "Description",
+    description:
+      "This is a full-stack MERN project. This is a social media-type project where profile, forum functionalities are added. ",
     tags: [
       {
         id: 1,
-        text: "NPM",
+        text: "MongoDB",
       },
       {
         id: 2,
+        text: "Express",
+      },
+      {
+        id: 3,
         text: "React",
       },
       {
-        id: 2,
-        text: "Object Oriented Programming",
+        id: 4,
+        text: "Node.js",
       },
     ],
     link: "/",
     image: mern,
   },
   {
-    id: 9,
-    title: "DevAddaGhor Forum Website",
-    description: "Description",
-    tags: [
-      {
-        id: 1,
-        text: "NPM",
-      },
-      {
-        id: 2,
-        text: "React",
-      },
-      {
-        id: 2,
-        text: "Object Oriented Programming",
-      },
-    ],
-    link: "https://dev-adda.herokuapp.com/",
-    image: mern,
-  },
-  {
     id: 10,
-    title: "Github Buddy Simple Project",
-    description: "Description",
+    title: "Github Buddy JavaScript Project",
+    description:
+      "This is a simple but one of the most important projects for my web development carrier. I become much confident about asynchronous programming in JavaScript. ",
     tags: [
       {
         id: 1,
-        text: "NPM",
+        text: "Vanilla JavaScript",
       },
       {
         id: 2,
-        text: "React",
-      },
-      {
-        id: 2,
-        text: "Object Oriented Programming",
+        text: "Asynchronous Programming",
       },
     ],
     link: "https://tanvirmahin24.github.io/Github-buddy",
@@ -195,19 +177,15 @@ const data = [
   {
     id: 11,
     title: "Bytech Web Design",
-    description: "Description",
+    description: "This is a simple HTML CSS design for creative agency.",
     tags: [
       {
         id: 1,
-        text: "NPM",
+        text: "HTML/CSS",
       },
       {
         id: 2,
-        text: "React",
-      },
-      {
-        id: 2,
-        text: "Object Oriented Programming",
+        text: "D3",
       },
     ],
     link: "https://bytechbd.tech/",
