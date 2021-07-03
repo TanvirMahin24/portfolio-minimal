@@ -49,6 +49,7 @@
 
 .icon {
   color: var(--color_light);
+  margin-right: 10px;
 }
 
 .icon:hover {

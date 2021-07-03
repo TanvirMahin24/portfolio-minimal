@@ -6,6 +6,29 @@ import js from "../../Assets/ProjectsCategory/js.png";
 
 const data = [
   {
+    id: 13,
+    title: "InfraAgency React Website",
+    content: <h1>a</h1>,
+    tags: [
+      {
+        id: 1,
+        text: "React",
+      },
+      {
+        id: 2,
+        text: "Netlify",
+      },
+      {
+        id: 3,
+        text: "Jquery",
+      },
+    ],
+    link: "https://infraagency.com/",
+    description:
+      "This package is the react version of Winbox.js. Learned a lot while building this package. This package got 1000+ download in the first 24 hours.",
+    image: react,
+  },
+  {
     id: 1,
     title: "Winbox-React npm package",
     content: <h1>a</h1>,
@@ -24,7 +47,8 @@ const data = [
       },
     ],
     link: "https://tanvirmahin24.github.io/winbox-react/",
-    github: "",
+    github: "https://github.com/TanvirMahin24/winbox-react",
+    npm: "https://www.npmjs.com/package/winbox-react",
     description:
       "This package is the react version of Winbox.js. Learned a lot while building this package. This package got 1000+ download in the first 24 hours.",
     image: react,
@@ -44,7 +68,8 @@ const data = [
         text: "Bootstrap",
       },
     ],
-    github: "",
+    link: "",
+    github: "https://github.com/TanvirMahin24/realstate-django",
     image: django,
   },
   {
@@ -70,7 +95,29 @@ const data = [
     github: "",
     image: react,
   },
-
+  {
+    id: 12,
+    title: "Portfolio Nextjs",
+    description:
+      "This is a Gatsby project. I was quite experienced with the MERN stack and wanted to make my website more SEO-friendly. For this, I learned a bit about Gatsby and made this project.",
+    tags: [
+      {
+        id: 1,
+        text: "Nextjs",
+      },
+      {
+        id: 2,
+        text: "Node.js",
+      },
+      {
+        id: 3,
+        text: "React",
+      },
+    ],
+    link: "https://tanvirmahin.herokuapp.com/",
+    github: "https://github.com/TanvirMahin24/Portfolio-site-react",
+    image: react,
+  },
   {
     id: 5,
     title: "Moment Startup Site",
@@ -109,7 +156,7 @@ const data = [
         text: "HTML/CSS",
       },
     ],
-    github: "",
+    github: "https://github.com/TanvirMahin24/reddot",
     image: php,
   },
   {
@@ -131,7 +178,7 @@ const data = [
         text: "HTML/CSS",
       },
     ],
-    github: "",
+    github: "https://github.com/TanvirMahin24/blogger",
     image: php,
   },
   {
@@ -157,27 +204,10 @@ const data = [
         text: "Node.js",
       },
     ],
+    github: "https://github.com/TanvirMahin24/DevAdda",
     image: mern,
   },
-  {
-    id: 10,
-    title: "Github Buddy JavaScript Project",
-    description:
-      "This is a simple but one of the most important projects for my web development carrier. I become much confident about asynchronous programming in JavaScript. ",
-    tags: [
-      {
-        id: 1,
-        text: "Vanilla JavaScript",
-      },
-      {
-        id: 2,
-        text: "Asynchronous Programming",
-      },
-    ],
-    link: "https://tanvirmahin24.github.io/Github-buddy",
-    github: "",
-    image: js,
-  },
+
   {
     id: 11,
     title: "Bytech Web Design",
@@ -193,7 +223,7 @@ const data = [
       },
     ],
     link: "https://bytechbd.tech/",
-    github: "",
+    github: "https://github.com/TanvirMahin24/bytech",
     image: js,
   },
 ];

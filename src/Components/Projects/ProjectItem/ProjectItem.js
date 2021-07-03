@@ -1,12 +1,13 @@
 import React from "react";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { VscGithubAlt } from "react-icons/vsc";
+import { SiNpm } from "react-icons/si";
 import styles from "./ProjectItem.module.css";
 import WinboxReact from "winbox-react";
 import { Col } from "react-bootstrap";
 import { useState } from "react";
 
-const ProjectItem = ({ github, title, description, tags, id, link }) => {
+const ProjectItem = ({ npm, github, title, description, tags, id, link }) => {
   const [modal, setModal] = useState(false);
   return (
     <Col md={12} sm={12} xs={12} className="p-2">
@@ -28,14 +29,20 @@ const ProjectItem = ({ github, title, description, tags, id, link }) => {
             </button>
           </div> */}
           <div className={`text-right ${styles.project_links}`}>
+            {link && (
+              <a href={link} className={styles.icon}>
+                <BsBoxArrowUpRight />
+              </a>
+            )}
             {github && (
               <a href={github} className={styles.icon}>
                 <VscGithubAlt />
               </a>
             )}
-            {link && (
+
+            {npm && (
               <a href={link} className={styles.icon}>
-                <BsBoxArrowUpRight />
+                <SiNpm />
               </a>
             )}
           </div>
