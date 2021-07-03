@@ -8,6 +8,7 @@ const data = [
   {
     id: 1,
     title: "Winbox-React npm package",
+    content: <h1>a</h1>,
     tags: [
       {
         id: 1,
@@ -23,6 +24,7 @@ const data = [
       },
     ],
     link: "https://tanvirmahin24.github.io/winbox-react/",
+    github: "",
     description:
       "This package is the react version of Winbox.js. Learned a lot while building this package. This package got 1000+ download in the first 24 hours.",
     image: react,
@@ -42,7 +44,7 @@ const data = [
         text: "Bootstrap",
       },
     ],
-    link: "/",
+    github: "",
     image: django,
   },
   {
@@ -65,6 +67,7 @@ const data = [
       },
     ],
     link: "https://tanvirmahin.netlify.app",
+    github: "",
     image: react,
   },
 
@@ -84,6 +87,7 @@ const data = [
       },
     ],
     link: "https://momentbd.netlify.app",
+    github: "",
     image: react,
   },
   {
@@ -105,7 +109,7 @@ const data = [
         text: "HTML/CSS",
       },
     ],
-    link: "/",
+    github: "",
     image: php,
   },
   {
@@ -127,7 +131,7 @@ const data = [
         text: "HTML/CSS",
       },
     ],
-    link: "/",
+    github: "",
     image: php,
   },
   {
@@ -153,7 +157,6 @@ const data = [
         text: "Node.js",
       },
     ],
-    link: "/",
     image: mern,
   },
   {
@@ -172,6 +175,7 @@ const data = [
       },
     ],
     link: "https://tanvirmahin24.github.io/Github-buddy",
+    github: "",
     image: js,
   },
   {
@@ -189,6 +193,7 @@ const data = [
       },
     ],
     link: "https://bytechbd.tech/",
+    github: "",
     image: js,
   },
 ];
