@@ -63,6 +63,25 @@
   background: var(--color_orange);
   opacity: 1;
 }
+
+.lv1,
+.lv2,
+.lv3,
+.lv4,
+.lv5 {
+  transition: 0.3s all ease-in-out;
+}
+
+.lv1:hover,
+.lv2:hover,
+.lv3:hover,
+.lv4:hover,
+.lv5:hover {
+  background: var(--color_light);
+  border-radius: 50%;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+}
 @media screen and (max-width: 500px) {
   .lv0 {
     opacity: 0.5;
