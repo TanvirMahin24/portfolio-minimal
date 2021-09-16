@@ -10,8 +10,8 @@ import { Footer } from "../../Components/Footer";
 import { Hero } from "../../Components/Hero";
 import { Certificates } from "../../Components/Certificates";
 import { Projects } from "../../Components/Projects";
-import { FillerPatterns } from "../../Components/FillerPatterns";
 import { Upwork } from "../../Components/Upwork";
+import { Testimonials } from "../../Components/Testimonials";
 
 const LandingPage = ({
   primary,
@@ -56,6 +56,11 @@ const LandingPage = ({
             <Certificates />
             {/* <FillerPatterns /> */}
             <Upwork />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Testimonials />
           </Col>
         </Row>
       </Container>

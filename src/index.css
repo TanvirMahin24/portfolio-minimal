@@ -21,3 +21,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* ANIMATION */
+.slide-enter {
+  opacity: 0 !important;
+}
+.slide-enter-active {
+  opacity: 1 !important;
+  transition: opacity 500ms;
+}
+.slide-exit {
+  opacity: 1 !important;
+}
+.slide-exit-active {
+  opacity: 0 !important;
+  transition: opacity 500ms;
+}

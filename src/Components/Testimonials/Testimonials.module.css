@@ -1,0 +1,23 @@
+.title {
+  text-align: center !important;
+  font-weight: lighter;
+  color: var(--color_light);
+  font-size: 2rem;
+  letter-spacing: 13px;
+  padding-bottom: 50px;
+  padding-top: 80px;
+}
+
+.dot {
+  margin: 5px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid var(--color_orange);
+}
+
+.activeDot {
+  margin: 5px;
+  width: 10px;
+  height: 10px;
+  background: var(--color_light) !important;
+}
