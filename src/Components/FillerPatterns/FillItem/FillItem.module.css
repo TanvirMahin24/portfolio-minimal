@@ -1,0 +1,24 @@
+.box {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  overflow: hidden;
+  /* background: red; */
+  border-left: 1px solid var(--color_orange);
+  border-bottom: 1px solid var(--color_orange);
+}
+
+@keyframes boxAnim {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}

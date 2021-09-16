@@ -13,7 +13,7 @@ const BorderedSection = ({ title, children }) => {
 
   return (
     <div className="p-sm-4 p-3">
-      <span className={styles.title}>{title}</span>
+      {title && <span className={styles.title}>{title}</span>}
       <div className={styles.wrapper}>
         <div className={styles.border_section}>
           <div className={styles.top}></div>
