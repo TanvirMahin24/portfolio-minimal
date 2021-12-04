@@ -16,7 +16,7 @@ const Testimonials = () => {
         } else {
           setSelectedData(selectedData + 1);
         }
-        console.log(selectedData);
+        // console.log(selectedData);
       }, 5000);
       setInProp(true);
     };

@@ -1,4 +1,4 @@
-import { GITHUB_AUTH_TOKEN } from "./secreat.s";
+import { GITHUB_AUTH_TOKEN } from "./secreat.js";
 const data = {
   github_username: "TanvirMahin24",
   tkn: GITHUB_AUTH_TOKEN,

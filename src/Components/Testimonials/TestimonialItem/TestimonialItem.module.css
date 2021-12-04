@@ -2,20 +2,17 @@
   border: 1px dashed var(--color_orange) !important;
   color: var(--color_light) !important;
   padding-top: 20px;
-  /* animation: anim 3s infinite alternate; */
+  animation: anim 1s ease-in-out 1;
 }
 
 @keyframes anim {
   0% {
     opacity: 0;
   }
-  40% {
-    opacity: 0;
-  }
-  60% {
+  50% {
     opacity: 1;
   }
-  100% {
+  95% {
     opacity: 1;
   }
 }
