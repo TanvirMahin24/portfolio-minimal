@@ -1,0 +1,26 @@
+.wrapper {
+  width: 250px;
+  height: 250px;
+}
+.heading {
+  font-size: 20px;
+  color: var(--color-orange) !important;
+  font-weight: lighter !important;
+}
+
+.contact__btn {
+  background: var(--color_orange) !important;
+  color: var(--color_light) !important;
+  padding: 10px 50px;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  transition: 0.3s all ease-in-out;
+}
+
+.contact__btn:hover {
+  background: var(--color_light) !important;
+  color: var(--color_dark) !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  transition: 0.3s all ease-in-out;
+}

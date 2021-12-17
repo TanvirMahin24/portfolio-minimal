@@ -12,6 +12,7 @@ import { Certificates } from "../../Components/Certificates";
 import { Projects } from "../../Components/Projects";
 import { Upwork } from "../../Components/Upwork";
 import { Testimonials } from "../../Components/Testimonials";
+import Youtube from "../../Components/Youtube/Youtube";
 
 const LandingPage = ({
   primary,
@@ -44,6 +45,7 @@ const LandingPage = ({
     >
       <ColorPicker />
       <Hero />
+      <Youtube />
       <Container>
         <Row>
           <Col md={6}>
