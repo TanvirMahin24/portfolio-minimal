@@ -3,23 +3,12 @@
   color: var(--color_light) !important;
   padding-top: 20px;
   animation: anim 1s ease-in-out 1;
-}
-
-@keyframes anim {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  95% {
-    opacity: 1;
-  }
+  margin-top: 30px;
 }
 
 .bottom {
   width: 300px;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 10px 20px;
   background: var(--color_orange) !important;
 }
@@ -29,7 +18,7 @@
 }
 
 .quote {
-  font-size: 40px;
+  font-size: 32px;
   color: var(--color_orange);
 }
 
@@ -38,10 +27,10 @@
 }
 
 .content {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: lighter;
 }
 
 .content__area {
-  min-height: 250px;
+  min-height: 150px;
 }

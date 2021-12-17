@@ -22,18 +22,11 @@ code {
     monospace;
 }
 
-/* ANIMATION */
-.slide-enter {
-  opacity: 0 !important;
+.swiper {
+  overflow-y: visible !important;
 }
-.slide-enter-active {
-  opacity: 1 !important;
-  transition: opacity 500ms;
-}
-.slide-exit {
-  opacity: 1 !important;
-}
-.slide-exit-active {
-  opacity: 0 !important;
-  transition: opacity 500ms;
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  background-image: none !important;
 }
