@@ -31,6 +31,6 @@ export const getContributions = () => async (dispatch) => {
       type: CONTRIBUTION_ERROR,
       payload: contribDefaultData,
     });
-    console.log(err);
+    //console.log(err);
   }
 };
