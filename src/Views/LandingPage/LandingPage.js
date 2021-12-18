@@ -13,6 +13,8 @@ import { Projects } from "../../Components/Projects";
 import { Upwork } from "../../Components/Upwork";
 import { Testimonials } from "../../Components/Testimonials";
 import Youtube from "../../Components/Youtube/Youtube";
+import Contact from "../../Components/Contact/Contact";
+import ContactModal from "../../Components/ContactModal/ContactModal";
 
 const LandingPage = ({
   primary,
@@ -63,9 +65,11 @@ const LandingPage = ({
         <Row>
           <Col>
             <Testimonials />
+            <Contact />
           </Col>
         </Row>
       </Container>
+      <ContactModal />
       <Footer />
     </div>
   );

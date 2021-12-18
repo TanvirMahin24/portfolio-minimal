@@ -1,0 +1,33 @@
+.title {
+  text-align: center !important;
+  font-weight: lighter;
+  color: var(--color_light);
+  font-size: 2rem;
+  letter-spacing: 13px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.btn {
+  background: var(--color_orange) !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  font-size: 1.6rem;
+  transition: 0.3s all ease-in-out;
+}
+
+.btn:hover {
+  background: var(--color_light) !important;
+  color: var(--color_dark) !important;
+  text-decoration: none !important;
+  transition: 0.3s all ease-in-out;
+}
+
+.text {
+  color: var(--color_light) !important;
+  display: block;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}

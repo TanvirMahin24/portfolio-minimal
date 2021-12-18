@@ -1,0 +1,34 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: -110%;
+  width: 100%;
+  height: 100%;
+  background: var(--color_orange);
+  z-index: 999;
+  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all ease-in-out;
+}
+
+.wrapper.active {
+  left: 0 !important;
+}
+
+.close__btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 1000;
+  color: var(--color_light) !important;
+  font-size: 36px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.close__btn:hover {
+  color: var(--color_dark) !important;
+  transition: 0.3s all ease-in-out;
+}
