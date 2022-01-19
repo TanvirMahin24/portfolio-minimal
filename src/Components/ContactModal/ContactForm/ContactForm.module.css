@@ -1,0 +1,49 @@
+.heading {
+  color: var(--color_light) !important;
+  font-size: 5rem;
+  text-align: right;
+  padding-top: 1rem;
+  padding-right: 5rem;
+  font-weight: lighter;
+}
+
+.err_msg {
+  color: var(--color_orange) !important;
+  padding: 6px 20px;
+  margin-right: 20px !important;
+  background: var(--color_dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.textarea {
+  min-height: 200px !important;
+}
+
+.label {
+  font-size: 1.7rem;
+  color: var(--color_light) !important;
+}
+
+.btn {
+  background: var(--color_dark) !important;
+  color: var(--color_light) !important;
+  padding: 10px 50px;
+  font-size: 20px;
+  border: none !important;
+  border-radius: 0 !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  transition: 0.3s all ease-in-out;
+}
+
+.btn:hover {
+  background: var(--color_light) !important;
+  color: var(--color_dark) !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  transition: 0.3s all ease-in-out;
+}
