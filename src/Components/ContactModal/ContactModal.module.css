@@ -34,9 +34,9 @@
 .circle {
   position: absolute;
   border-radius: 50%;
-  background: var(--color_light);
+  background: var(--color_dark);
   animation: ripple 15s infinite;
-  box-shadow: 0px 0px 1px 0px var(--color_orange) !important;
+  box-shadow: 0px 0px 1px 0px var(--color_dark) !important;
 }
 
 .small {
@@ -61,17 +61,17 @@
 }
 
 .xlarge {
-  width: 800px;
-  height: 800px;
-  left: -400px;
-  bottom: -400px;
-}
-
-.xxlarge {
   width: 1000px;
   height: 1000px;
   left: -500px;
   bottom: -500px;
+}
+
+.xxlarge {
+  width: 1400px;
+  height: 1400px;
+  left: -700px;
+  bottom: -700px;
 }
 
 .shade1 {
@@ -82,15 +82,15 @@
 }
 
 .shade3 {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .shade4 {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .shade5 {
-  opacity: 0.9;
+  opacity: 1;
 }
 
 @keyframes ripple {

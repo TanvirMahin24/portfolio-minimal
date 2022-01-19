@@ -31,8 +31,8 @@
 .btn {
   background: var(--color_dark) !important;
   color: var(--color_light) !important;
-  padding: 10px 50px;
-  font-size: 20px;
+  padding: 10px 50px !important;
+  font-size: 20px !important;
   border: none !important;
   border-radius: 0 !important;
   text-decoration: none !important;
