@@ -24,3 +24,18 @@
   text-decoration: none !important;
   transition: 0.3s all ease-in-out;
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    max-width: 97vw;
+    height: auto;
+  }
+
+  .contact__btn {
+    padding: 10px 30px;
+  }
+
+  .wrapper {
+    padding-top: 30px !important;
+  }
+}

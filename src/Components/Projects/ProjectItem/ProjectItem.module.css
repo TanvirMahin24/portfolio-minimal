@@ -50,10 +50,12 @@
 .icon {
   color: var(--color_light);
   margin-right: 10px;
+  transition: 0.3s all ease-in-out;
 }
 
 .icon:hover {
   color: var(--color_orange);
+  transition: 0.3s all ease-in-out;
 }
 
 .btn__read {
@@ -62,4 +64,10 @@
   border: 1px solid var(--color_light);
   font-size: 18px;
   color: var(--color_light) !important;
+}
+
+@media screen and (max-width: 768px) {
+  .project__card {
+    width: 90% !important;
+  }
 }

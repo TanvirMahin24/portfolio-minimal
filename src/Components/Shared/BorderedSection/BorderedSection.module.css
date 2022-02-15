@@ -52,4 +52,9 @@
   .content {
     padding: 10px 10px;
   }
+
+  .title {
+    font-size: 1.3rem !important;
+    letter-spacing: 10px !important;
+  }
 }

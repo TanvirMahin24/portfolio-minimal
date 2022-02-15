@@ -6,6 +6,35 @@ import js from "../../Assets/ProjectsCategory/js.png";
 
 const data = [
   {
+    id: 14,
+    title: "CmpGen npm package",
+    content: <h1>a</h1>,
+    tags: [
+      {
+        id: 0,
+        text: "CLI",
+      },
+      {
+        id: 1,
+        text: "NPM",
+      },
+      {
+        id: 2,
+        text: "React",
+      },
+      {
+        id: 3,
+        text: "Node.js",
+      },
+    ],
+    link: "https://devnops.tech/cmpgen/",
+    github: "https://github.com/TanvirMahin24/cmpgen",
+    npm: "https://www.npmjs.com/package/cmpgen",
+    description:
+      "This is a CLI built with Node.js for generating boilerplate code for react components. This package also accept config file for constant structure.",
+    image: react,
+  },
+  {
     id: 13,
     title: "InfraAgency React Website",
     content: <h1>a</h1>,
@@ -53,6 +82,7 @@ const data = [
       "This package is the react version of Winbox.js. Learned a lot while building this package. This package got 1000+ download in the first 24 hours.",
     image: react,
   },
+
   {
     id: 2,
     title: "Real Estate Management Site",
