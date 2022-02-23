@@ -7,6 +7,7 @@ import store from "./Store";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "winbox-react/dist/index.css";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (

@@ -19,11 +19,11 @@ const EducationItem = ({ institution, time, degree, content }) => {
 
   return (
     <div className={styles.item}>
-      {show && (
+      {/* {show && (
         <WinboxReact {...options} onClose={clickHandeler}>
           {content}
         </WinboxReact>
-      )}
+      )} */}
       <div>
         <span onClick={() => clickHandeler()} className={styles.institution}>
           {institution}

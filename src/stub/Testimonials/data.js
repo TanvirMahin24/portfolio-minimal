@@ -1,9 +1,11 @@
 const data = [
   {
     id: 1,
-    name: "Tanvir Mahin",
-    position: "Web Developer, Qubitech Solution",
-    content: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque itaque repellat esse dolor sapiente fuga. Praesentium asperiores fuga maxime eos, voluptates autem numquam cum provident rem voluptate cupiditate facere eveniet.`,
+    name: "Monir Hossaib Showrav",
+    position: "Software Engineer, Implevista BD Ltd",
+    content: `Tanvir Mahin is a dynamic and enthusiastic developer who likes to write codes and solve problems.
+    He has depth knowledge on technologies he works on.
+    His eagerness to learn new things and to generate new ideas will made him one of your best choices for next generation Software Engineer.`,
   },
   {
     id: 2,

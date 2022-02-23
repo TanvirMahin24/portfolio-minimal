@@ -35,6 +35,24 @@ const data = [
     image: react,
   },
   {
+    id: 15,
+    title: "Qubitech Solutions Website",
+    content: <h1>a</h1>,
+    tags: [
+      {
+        id: 0,
+        text: "React",
+      },
+    ],
+    link: "https://qubitechbd.com/",
+    description: `
+  Qubitech is a creative team working with ambitious tech
+  companies around the world. Every day, we are
+  developing tech solutions that help our partners
+  stand out, connect with customers and grow faster.`,
+    image: react,
+  },
+  {
     id: 13,
     title: "InfraAgency React Website",
     content: <h1>a</h1>,
@@ -54,7 +72,7 @@ const data = [
     ],
     link: "https://infraagency.com/",
     description:
-      "This package is the react version of Winbox.js. Learned a lot while building this package. This package got 1000+ download in the first 24 hours.",
+      "This project wascompeleted for Upwork Client and it is a website for InfraAgency. It is a React website deployed to Netlify.",
     image: react,
   },
   {
@@ -125,29 +143,29 @@ const data = [
     github: "",
     image: react,
   },
-  {
-    id: 12,
-    title: "Portfolio Nextjs",
-    description:
-      "This is a Gatsby project. I was quite experienced with the MERN stack and wanted to make my website more SEO-friendly. For this, I learned a bit about Gatsby and made this project.",
-    tags: [
-      {
-        id: 1,
-        text: "Nextjs",
-      },
-      {
-        id: 2,
-        text: "Node.js",
-      },
-      {
-        id: 3,
-        text: "React",
-      },
-    ],
-    link: "https://tanvirmahin.herokuapp.com/",
-    github: "https://github.com/TanvirMahin24/Portfolio-site-react",
-    image: react,
-  },
+  // {
+  //   id: 12,
+  //   title: "Portfolio Nextjs",
+  //   description:
+  //     "This is a Gatsby project. I was quite experienced with the MERN stack and wanted to make my website more SEO-friendly. For this, I learned a bit about Gatsby and made this project.",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       text: "Nextjs",
+  //     },
+  //     {
+  //       id: 2,
+  //       text: "Node.js",
+  //     },
+  //     {
+  //       id: 3,
+  //       text: "React",
+  //     },
+  //   ],
+  //   link: "https://tanvirmahin.herokuapp.com/",
+  //   github: "https://github.com/TanvirMahin24/Portfolio-site-react",
+  //   image: react,
+  // },
   {
     id: 5,
     title: "Moment Startup Site",
@@ -237,25 +255,51 @@ const data = [
     github: "https://github.com/TanvirMahin24/DevAdda",
     image: mern,
   },
-
   {
-    id: 11,
-    title: "Bytech Web Design",
-    description: "This is a simple HTML CSS design for creative agency.",
+    id: 8,
+    title: "Obosor Website",
+    description:
+      "Obosor is a online library. It was a great project for me. This project was built in MERN stack.",
     tags: [
       {
         id: 1,
-        text: "HTML/CSS",
+        text: "MongoDB",
       },
       {
         id: 2,
-        text: "D3",
+        text: "Express",
+      },
+      {
+        id: 3,
+        text: "React",
+      },
+      {
+        id: 4,
+        text: "Node.js",
       },
     ],
-    link: "https://bytechbd.tech/",
-    github: "https://github.com/TanvirMahin24/bytech",
-    image: js,
+    link: "https://obosor.shop",
+    image: mern,
   },
+
+  // {
+  //   id: 11,
+  //   title: "Bytech Web Design",
+  //   description: "This is a simple HTML CSS design for creative agency.",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       text: "HTML/CSS",
+  //     },
+  //     {
+  //       id: 2,
+  //       text: "D3",
+  //     },
+  //   ],
+  //   link: "https://bytechbd.tech/",
+  //   github: "https://github.com/TanvirMahin24/bytech",
+  //   image: js,
+  // },
 ];
 
 export default data;

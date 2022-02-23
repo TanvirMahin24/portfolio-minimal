@@ -15,6 +15,7 @@ import { Testimonials } from "../../Components/Testimonials";
 import Youtube from "../../Components/Youtube/Youtube";
 import Contact from "../../Components/Contact/Contact";
 import ContactModal from "../../Components/ContactModal/ContactModal";
+import { ToastContainer } from "react-toastify";
 
 const LandingPage = ({
   primary,
@@ -45,9 +46,10 @@ const LandingPage = ({
         height: "100%",
       }}
     >
+      <ToastContainer theme="dark" />
       <ColorPicker />
       <Hero />
-      <Youtube />
+      {/* <Youtube /> */}
       <Container>
         <Row>
           <Col md={6}>

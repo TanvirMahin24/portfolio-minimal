@@ -8,10 +8,16 @@ import {
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
 import styles from "./ContactForm.module.css";
+import { toast } from "react-toastify";
+import { connect } from "react-redux";
+import { toogleContactModal } from "../../../Actions/PageActions";
 
-const ContactForm = () => {
-  const onSubmitHandeler = async (values) => {
-    console.log(values);
+const ContactForm = ({ toogleContactModal }) => {
+  const onSubmitHandeler = (values, resetForm) => {
+    toast.success("Your message has been sent successfully!");
+    toogleContactModal();
+    resetForm();
+    return;
   };
   let initVals = {
     email: "",
@@ -36,7 +42,9 @@ const ContactForm = () => {
         <Formik
           initialValues={initVals}
           validationSchema={SignupSchema}
-          onSubmit={(values) => onSubmitHandeler(values)}
+          onSubmit={(values, { resetForm }) =>
+            onSubmitHandeler(values, resetForm)
+          }
         >
           {({ errors, touched }) => (
             <Form>
@@ -123,4 +131,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default connect(null, { toogleContactModal })(ContactForm);
