@@ -22,7 +22,7 @@ const TestimonialItem = ({ name, position, content }) => {
               <FaQuoteRight />
             </span>
           </div>
-          <div className="d-flex justify-content-end align-items-end">
+          <div className="d-flex justify-content-end align-items-end mt-auto">
             <div className={`${styles.bottom} text-center`}>
               <span className={`${styles.name} d-block`}>{name}</span>
               <span className="d-block">{position}</span>

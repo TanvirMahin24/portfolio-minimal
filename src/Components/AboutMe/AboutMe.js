@@ -4,12 +4,11 @@ import { BorderedSection } from "../Shared/BorderedSection";
 const AboutMe = () => {
   return (
     <BorderedSection title="ABOUT ME">
-      I am a web developer. I have gathered a lot of experience throughout my
-      web development career. I have a great experience with React.js as well as
-      some good hands-on experience with backend development using Node.js, PHP,
-      Laravel, and a little bit of Django. I also have some AWS knowledge. I
-      love when my imagination comes to life as a website. I also have Graphics
-      Designing, Video Editing, and Sound Mastering skills.
+      I am Noor Ajmir Tanvir Mahin, lead web developer of Qubitech Solutions. I
+      am a React developer with some hands-on knowledge of Node.js, PHP, Django,
+      Laravel as well as Serverless AWS approach. I have completed many complex
+      projects throughout my web development career. I love learning new web
+      development technologies and keeping myself up to date.
     </BorderedSection>
   );
 };

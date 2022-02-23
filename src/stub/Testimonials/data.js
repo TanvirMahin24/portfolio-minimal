@@ -9,21 +9,15 @@ const data = [
   },
   {
     id: 2,
-    name: "Tanvir Mahin 2",
-    position: "Qubitech Solution",
-    content: ` ipsum dolor sit ameing elit. Doloremque itaque repellat esse dolor sapiente fuga. Praesentium asperiores fuga maxime eos, voluptates autem numquam cum provident rem voluptate cupiditate facere eveniet.`,
+    name: "Nayeem Hasan",
+    position: "CTO, Qubitech Solution",
+    content: `Tanvir Mahin is one of the most thoughtful, knowledgeable and professional people that I know in my career. He's got a passion for the design & development of enterprise software application, and is one of the "go to" people for his knowledge, his understanding of the issues, his original ideas and his thorough execution. I have enjoyed all of our encounters and recommend him very highly.`,
   },
   {
     id: 3,
-    name: "Tanvir Mahin 3",
+    name: "Mizanur Rahman",
     position: "Web Developer, Qubitech Solution",
-    content: ` met consectetur adipisicing elit. Doloremque itaque repellat esse dolor sapiente fuga. Praesentium asperiores fuga maxime eos, voluptates autem numquam cum provident rem voluptate cupiditate facere eveniet.`,
-  },
-  {
-    id: 4,
-    name: "Tanvir Mahin 4",
-    position: "Web Developer, Qubitech Solution",
-    content: ` consectetur adipisicing elit. Doloremque itaque repellat esse dolor sapiente fuga. Praesentium asperiores fuga maxime eos, voluptates autem numquam cum provident rem voluptate cupiditate facere eveniet.`,
+    content: `We’ve worked together on several projects and Tanvir Mahin is one of the best people to have as a partner. Her ability to adopt new technologies, motivate other teammates and dedication in developing helped us during hard times. He is one of the energetic talent I have ever met. I always pray for his successful future.`,
   },
 ];
 

@@ -38,6 +38,10 @@
   color: var(--color_dark);
   font-weight: normal;
   padding: 2px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   transition: 0.3s all ease-in-out;
 }
 
